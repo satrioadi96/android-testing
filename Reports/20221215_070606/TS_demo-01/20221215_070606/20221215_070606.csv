@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_demo-01,,,,2022-12-15 07:06:13,2022-12-15 07:07:18,1m - 5.281s,PASSED
+,,,,,,,
+Test Cases/AMA-02,,,,2022-12-15 07:06:14,2022-12-15 07:07:18,1m - 4.546s,PASSED
+"startApplication(""C:\Users\User\git\android-testing\Data Files\android-app\Android-MyDemoAppRN.1.2.0.build-231.apk"", true)",,,,2022-12-15 07:06:15,2022-12-15 07:07:02,46.780s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.widget.FrameLayout""), 0)",,,,2022-12-15 07:07:02,2022-12-15 07:07:05,3.004s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.widget.ImageView""), 0)",,,,2022-12-15 07:07:05,2022-12-15 07:07:06,1.174s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.widget.TextView - Log In""), 0)",,,,2022-12-15 07:07:06,2022-12-15 07:07:09,2.870s,PASSED
+"setText(findTestObject(""Object Repository/stuff_login/android.widget.EditText""), ""bob@example.com"", 0)",,,,2022-12-15 07:07:09,2022-12-15 07:07:11,2.351s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.view.ViewGroup""), 0)",,,,2022-12-15 07:07:11,2022-12-15 07:07:12,0.765s,PASSED
+"verifyElementText(findTestObject(""stuff_login/android.widget.TextView - Password is required""), ""Password is required"")",,,,2022-12-15 07:07:12,2022-12-15 07:07:13,1.324s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.widget.ImageView (1)""), 0)",,,,2022-12-15 07:07:13,2022-12-15 07:07:14,0.842s,PASSED
+"tap(findTestObject(""Object Repository/stuff_login/android.view.ViewGroup (1)""), 0)",,,,2022-12-15 07:07:14,2022-12-15 07:07:16,2.173s,PASSED
+closeApplication(),,,,2022-12-15 07:07:16,2022-12-15 07:07:18,2.221s,PASSED
