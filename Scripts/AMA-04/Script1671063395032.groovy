@@ -30,11 +30,9 @@ Mobile.tap(findTestObject('Object Repository/product_detail/android.view.ViewGro
 
 Mobile.tap(findTestObject('Object Repository/product_detail/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject(''), 0)
-
 Mobile.tap(findTestObject('Object Repository/product_detail/android.widget.TextView - Add To Cart'), 0)
 
-Mobile.tap(findTestObject('Object Repository/product_detail/android.widget.TextView - Sauce Labs Backpack'), 0)
+Mobile.verifyElementText(findTestObject('product_detail/android.widget.TextView - Sauce Labs Backpack'), 'Sauce Labs Backpack')
 
 Mobile.pressBack()
 
