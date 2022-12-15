@@ -26,12 +26,19 @@ Mobile.tap(findTestObject('Object Repository/data_login/android.widget.ImageView
 
 Mobile.tap(findTestObject('Object Repository/data_login/android.widget.TextView - Log In'), 0)
 
-Mobile.setText(findTestObject('Object Repository/data_login/aw.username'), 'bob@example.com', 0)
+for (def rowNum = 1; rowNum <= findTestData('Data Files/Data Driven/login'); rowNum++) {
+    Mobile.setText(findTestObject('Object Repository/data_login/aw.username'), findTestData('Data Files/Data Driven/login').getValue(
+            1, rowNum), 0)
 
-Mobile.setText(findTestObject('Object Repository/data_login/aw.password'), '10203040', 0)
+    Mobile.setText(findTestObject('Object Repository/data_login/aw.password'), findTestData('Data Files/Data Driven/login').getValue(
+            2, rowNum), 0)
 
-Mobile.tap(findTestObject('Object Repository/data_login/android.view.ViewGroup'), 0)
+    Mobile.tap(findTestObject('Object Repository/data_login/android.view.ViewGroup'), 0)
+}
 
+//Mobile.setText(findTestObject('Object Repository/data_login/aw.username'), Username, 0)
+//Mobile.setText(findTestObject('Object Repository/data_login/aw.password'), Password, 0)
+//Mobile.tap(findTestObject('Object Repository/data_login/android.view.ViewGroup'), 0)
 Mobile.pressBack()
 
 Mobile.closeApplication()

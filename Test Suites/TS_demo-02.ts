@@ -11,4 +11,32 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>12f012bf-1e7f-469c-887a-8032d47c6229</testSuiteGuid>
+   <testCaseLink>
+      <guid>7acb2835-2471-4c91-84ad-e2ab726ced04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AMA-03</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f3e922d-f1ac-4ab9-9c5d-3d86565b2a2e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Driven/login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3f3e922d-f1ac-4ab9-9c5d-3d86565b2a2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>468e0581-a770-48b4-b338-bb880f8f5259</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f3e922d-f1ac-4ab9-9c5d-3d86565b2a2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>84c21408-5ae5-4cd1-adaf-4a6f34d3d984</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
